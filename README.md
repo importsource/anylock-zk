@@ -1,6 +1,7 @@
 # anylock-zk
 lock utils for zk
 
+##demo:
 ```java
 DistributedLock lock = null;
 		try {
@@ -13,4 +14,13 @@ DistributedLock lock = null;
 			if (lock != null)
 			lock.unlock();
 		}
+```
+
+##maven:
+```xml
+<dependency>
+    <groupId>com.importsource.anylock</groupId>
+    <artifactId>anylock-zookeeper</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+</dependency>
 ```
