@@ -24,6 +24,7 @@ public class ConcurrentTest {
 	private AtomicInteger err = new AtomicInteger();// 原子递增
 	private ConcurrentTask[] task = null;
 
+	
 	public ConcurrentTest(ConcurrentTask... task) {
 		this.task = task;
 		if (task == null) {
