@@ -26,7 +26,7 @@ import org.apache.zookeeper.data.Stat;
  * @author Hezf
  *
  */
-public class DistributedLock implements Lock, Watcher {
+public class ZKLock implements Lock, Watcher {
 	
 	private ZooKeeper zk;
 	private String root = "/locks";// 根
@@ -45,7 +45,7 @@ public class DistributedLock implements Lock, Watcher {
 	 * @param lockName
 	 *            竞争资源标志,lockName中不能包含单词lock
 	 */
-	public DistributedLock(String config, String lockName) {
+	public ZKLock(String config, String lockName) {
 		this.lockName = lockName;
 		// 创建一个与服务器的连接
 		try {
