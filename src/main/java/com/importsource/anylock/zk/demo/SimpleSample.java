@@ -1,4 +1,6 @@
-package com.importsource.anylock.zk;
+package com.importsource.anylock.zk.demo;
+
+import com.importsource.anylock.zk.DistributedLock;
 
 public class SimpleSample {
 

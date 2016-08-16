@@ -1,6 +1,7 @@
-package com.importsource.anylock.zk;
+package com.importsource.anylock.zk.demo;
 
-import com.importsource.anylock.zk.ConcurrentTest.ConcurrentTask;
+import com.importsource.anylock.zk.DistributedLock;
+import com.importsource.anylock.zk.demo.ConcurrentTest.ConcurrentTask;
 
 /**
  * 

@@ -1,4 +1,4 @@
-package com.importsource.anylock.zk;
+package com.importsource.anylock.zk.demo;
 import org.apache.zookeeper.WatchedEvent;
 import org.apache.zookeeper.Watcher;
 
