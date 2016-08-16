@@ -1,4 +1,4 @@
-package com.importsource.lock.zk;
+package com.importsource.anylock.zk;
 
 public class SimpleSample {
 
@@ -11,8 +11,8 @@ public class SimpleSample {
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
-			//if (lock != null)
-				//lock.unlock();
+			if (lock != null)
+			lock.unlock();
 		}
 	}
 

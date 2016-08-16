@@ -1,4 +1,4 @@
-package com.importsource.lock.zk;
+package com.importsource.anylock.zk;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 
  * }}; } new ConcurrentTest(task);
  * 
- * @author xueliang
+ * @author Hezf
  *
  */
 public class ConcurrentTest {
